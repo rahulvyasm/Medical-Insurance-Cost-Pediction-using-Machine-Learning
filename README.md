@@ -13,6 +13,23 @@ The dataset used in this project consists of 2,772 entries with 7 features:
 - `region`: The beneficiary’s residential area in the US (northeast, southeast, southwest, northwest).
 - `charges`: Individual medical costs billed by health insurance.
 
+## Introduction
+
+Healthcare costs are a significant concern for individuals and families worldwide. Predicting medical insurance costs accurately can help insurance companies determine premiums and assist individuals in planning their healthcare expenses. This project focuses on building machine learning models to predict insurance costs based on demographic and health-related attributes.
+
+## Problem Statement
+
+1. What are the most important factors that affect medical expenses?
+2. How well can machine learning models predict medical expenses?
+3. How can machine learning models be used to improve the efficiency and profitability of health insurance companies?
+
+## Features
+
+- **Data Exploration**: Explore the dataset to understand its structure, identify missing values, and analyze the distribution of features.
+- **Data Preprocessing**: Prepare the data by handling categorical variables, renaming columns, and scaling numerical features.
+- **Model Training**: Utilize various machine learning models to train predictive models on the prepared dataset.
+- **Model Evaluation**: Evaluate model performance using metrics such as R-squared score and mean squared error to assess predictive accuracy
+  
 ## Technologies Used
 - Python 3.8+
 - Pandas for data manipulation
@@ -38,11 +55,6 @@ To use the scripts in this project:
    ```bash
    python medical_insurance_price_predictor.py
    ```
-
-## Features
-- Comprehensive data analysis and visualization of insurance costs and factors.
-- Implementation of multiple machine learning models to predict insurance costs.
-- Evaluation of model performance to ensure accuracy and reliability.
 
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Ensure to update tests as appropriate.

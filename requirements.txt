@@ -1,6 +1,12 @@
-numpy>=1.18.5
+numpy>=1.22.2
 pandas>=1.0.5
 matplotlib>=3.2.2
 seaborn>=0.10.1
-scikit-learn>=0.23.1
+scikit-learn>=1.5.0
 jupyter>=1.0.0
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -4,3 +4,5 @@ matplotlib>=3.2.2
 seaborn>=0.10.1
 scikit-learn>=0.23.1
 jupyter>=1.0.0
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
